@@ -1,0 +1,241 @@
+/* Mobile & tablet */
+@media (max-width: 1023px){
+   .header__navbar-icon,
+   .header__navbar-menu{
+       display: none;
+   }
+   .header__navbar-icon-menu-mt{
+       display: block;
+   }
+   .header__navbar{
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       background-color: #555;
+
+   }
+   .mrt-168px{
+    margin-top: 168px !important;
+    }   
+    .container__travel-place {
+        margin: 0;
+    }
+  
+    .container__promotions-packages-tour-info{
+        margin-bottom: 24px;
+    }
+
+   .header__navbar-icon-mobile{
+    display: block;
+    margin-top: 16px;
+    }
+    .header__service{
+        flex-direction: column;
+    }
+    .header__service-link:first-child{
+        margin-top: 70px;
+    }
+    .header__service-link{
+        max-width: 100%;
+        margin: 24px 36px 0px;
+        width: none;
+        width: auto;
+    }
+   .header__navbar-slider{
+       width: 100%;
+   }
+  
+    .header__search
+    {
+        max-width: 100%;
+        margin: 42px 36px 0px;
+        width: none;
+        width: auto;
+    }
+    .container_app-wrapper-heading-wrapper{
+        display: block;
+    }
+    .container_app-wrapper-heading
+    {
+        margin-top: 32px;
+    }
+   .container__tour-travel{
+       margin-top: 108px;
+   }
+  
+   .container__tour-travel-title {
+       margin-bottom: -8px;
+   }
+   .container__tour-sales{
+    margin-bottom: -4px;
+}
+
+    .main{
+        /* overflow-y: hidden; */
+    }
+
+    .footer__background
+    {
+        padding-bottom: 1400px;
+    }
+    .footer{
+        height: 1400px;
+    }
+    .footer__copyright{
+        bottom: 0;
+        display: block;
+        text-align: center;
+        line-height: 12px;
+    }
+}
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    .header-background-img{
+        padding-bottom: 85%;
+    }
+    .container_app-wrapper::after{
+        right: 24%;
+    }
+    .container__content-travel-date{
+        font-size: 4rem;
+        left: 0;
+        margin-left: 56px;
+        top: 5px;
+    }
+    .container__content-travel-view{
+        top: 170px;
+        left: 32%;
+
+    }
+    .container__tour-time-sale-datetime{
+        left: 12%;
+    }
+    .footer__content-wrapper{
+        display: block;
+    }
+    
+    .footer__content-wrapper{
+        height: 1866px;
+        bottom: -680px;
+    }
+    .container__promotions-packages-tour-service-price-present{
+        line-height: 29px;
+    }
+    .container_app-wrapper-heading::after{
+        right: 152px;
+    }
+    .footer__content-agency-item{
+        padding-left: 40px;
+    }
+    .header__navbar-menu-packages-mt{
+        width: 33.3333%;
+    }
+    
+}
+/* Mobile */
+@media (max-width: 739px){
+    .header-background-img{
+        padding-bottom: 1020px;
+    }
+    .header__text-title-wrapper{
+        line-height: 52px;
+    }
+    .header__text-promotion{
+        line-height: 26px;
+    }
+    .header__text-title,
+    .header__text-title-wrapper{
+        font-size: 6rem;
+    }
+    .container_app-wrapper::after{
+        right: 3%;
+    }
+    .container__content-travel-date{
+        font-size: 3rem;
+        left: 0;
+        margin-left: 56px;
+    }
+    .container__content-travel-view{
+        top: 170px;
+        left: 56px;
+
+    }
+    .container__content-travel-date-text-line::after{
+        bottom: -10px;
+        width: 120px;
+        left: 82px;
+    }
+    .container__tour-time-sale-datetime{
+        left: 60px;
+        /* display: block; */
+        /* width: 100%; */
+        display: flex;
+        flex-wrap: wrap;
+        bottom: -21px;
+    }
+    .container__tour-time-sale-deadline-class-fake2::after{
+       display: none;
+    }
+    .footer__tralve{
+        margin-top: 32px;
+    }
+    .footer__tralve-search {
+        /* top: 33px; */
+        margin-top: -15px;
+        display: block;
+    }
+    .footer__tralve-search-text-btn,
+    .footer__tralve-search-text{
+        width: 100%;
+        margin-bottom: 6px;
+    }
+    .footer__content {
+        margin-left: 0;
+        text-align: center;
+    }
+   
+   
+  
+    .footer__content{
+        text-align: center;
+    }
+    .footer__content-agency-item{
+        text-align: center;
+        padding: 0;
+        color: #000;
+    }
+    .footer__content-title,
+    .footer__content-agency-item-list{
+        color: black;
+        text-align: center;
+
+    }
+    .footer__tralve-search-title{
+        margin-top: 16px;
+    }
+    .footer__content-wrapper{
+        display: block;
+        top: -1165px;
+
+    }
+    .footer__wrapper{
+    display: block;
+}
+    
+    .header__text-title-wrapper{
+        line-height: 66px;
+    }
+    .container__tour-travel,
+    .container__tour-sales{
+        padding: 0 16px 0 16px;
+    }
+    .footer__content-agency{
+        margin-top: 30px;
+    }
+
+    .header__navbar-menu-packages-mt{
+        width: 65%;
+    }
+}
+
+
